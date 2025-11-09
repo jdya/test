@@ -48,6 +48,26 @@ CREATE TABLE IF NOT EXISTS users (
 -- users 테이블 인덱스
 CREATE INDEX IF NOT EXISTS idx_users_student_id ON users(student_id);
 
+-- answers 테이블 생성 (정답/오답 모두 저장)
+CREATE TABLE IF NOT EXISTS answers (
+    id SERIAL PRIMARY KEY,
+    student_id TEXT NOT NULL,
+    question_id INTEGER,
+    question_type TEXT,
+    question_text TEXT,
+    user_answer TEXT,
+    correct_answer TEXT,
+    is_correct BOOLEAN NOT NULL,
+    ai_explanation TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- answers 테이블 인덱스
+CREATE INDEX IF NOT EXISTS idx_answers_student_id ON answers(student_id);
+CREATE INDEX IF NOT EXISTS idx_answers_created_at ON answers(created_at);
+CREATE INDEX IF NOT EXISTS idx_answers_question_id ON answers(question_id);
+CREATE INDEX IF NOT EXISTS idx_answers_is_correct ON answers(is_correct);
+
 -- 기존 테이블이 있다면 컬럼 변경 (마이그레이션)
 -- ALTER TABLE wrong_answers RENAME COLUMN student_name TO student_id;
 -- DROP INDEX IF EXISTS idx_wrong_answers_student_name;
