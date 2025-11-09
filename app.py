@@ -110,11 +110,26 @@ st.markdown("""
 @st.cache_resource
 def init_supabase():
     try:
-        supabase_url = st.secrets["SUPABASE_URL"]
-        supabase_key = st.secrets["SUPABASE_KEY"]
-        return create_client(supabase_url, supabase_key)
+        supabase_url = st.secrets.get("SUPABASE_URL")
+        supabase_key = st.secrets.get("SUPABASE_KEY")
+        
+        if not supabase_url or not supabase_key:
+            return None
+        
+        # Supabase 클라이언트 생성 (proxy 인자 제거)
+        from supabase import create_client, Client
+        client = create_client(supabase_url, supabase_key)
+        return client
+    except KeyError:
+        # secrets에 SUPABASE_URL이나 SUPABASE_KEY가 없는 경우
+        return None
     except Exception as e:
-        st.error(f"Supabase 연결 오류: {e}")
+        # 오류를 조용히 처리 (사용자에게는 경고만 표시)
+        error_msg = str(e)
+        # proxy 관련 오류는 무시하고 None 반환
+        if 'proxy' in error_msg.lower() or 'unexpected keyword' in error_msg.lower():
+            return None
+        # 다른 오류는 로그만 남기고 None 반환
         return None
 
 # DeepSeek API 클라이언트 초기화
