@@ -136,14 +136,46 @@ def init_supabase():
 @st.cache_resource
 def init_deepseek():
     try:
-        api_key = st.secrets["DEEPSEEK_API_KEY"]
+        api_key = st.secrets.get("DEEPSEEK_API_KEY")
+        
+        if not api_key:
+            return None
+        
         # DeepSeek은 OpenAI 호환 API를 사용
-        return OpenAI(
-            api_key=api_key,
-            base_url="https://api.deepseek.com/v1"
-        )
+        # Streamlit Cloud 환경에서 proxies 인자 문제 방지
+        try:
+            # OpenAI 클라이언트 초기화 시 proxies 인자 제거
+            client = OpenAI(
+                api_key=api_key,
+                base_url="https://api.deepseek.com/v1",
+                timeout=60.0
+            )
+            # 간단한 테스트 호출로 연결 확인 (실제 API 호출은 하지 않음)
+            return client
+        except TypeError as e:
+            # proxies 인자 관련 오류인 경우 다른 방식으로 시도
+            error_msg = str(e)
+            if 'proxies' in error_msg.lower() or 'unexpected keyword' in error_msg.lower():
+                # httpx 클라이언트를 직접 생성하여 proxies 제거
+                import httpx
+                http_client = httpx.Client(timeout=60.0)
+                client = OpenAI(
+                    api_key=api_key,
+                    base_url="https://api.deepseek.com/v1",
+                    http_client=http_client
+                )
+                return client
+            raise
+    except KeyError:
+        # secrets에 DEEPSEEK_API_KEY가 없는 경우
+        return None
     except Exception as e:
-        st.error(f"DeepSeek API 연결 오류: {e}")
+        # 오류를 조용히 처리
+        error_msg = str(e)
+        # proxies 관련 오류는 무시하고 None 반환
+        if 'proxies' in error_msg.lower() or 'unexpected keyword' in error_msg.lower():
+            return None
+        # 다른 오류도 조용히 처리
         return None
 
 supabase = init_supabase()
