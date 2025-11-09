@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 동사 visit의 어법상 올바른 형태는?",
+    "sentence": "It is always exciting _______ new places.",
+    "options": ["visit", "visits", "visited", "to visit", "have visited"],
+    "correct_answer": 3,
+    "explanation": "It is + 형용사 + to 부정사 구조에서 'to visit'이 정답입니다. 가주어 It 뒤에는 to 부정사가 옵니다."
+  },
+  {
+    "id": 2,
+    "type": "rearrange",
+    "question": "우리말과 의미가 같도록 괄호 안에 주어진 단어들을 바르게 배열하시오.",
+    "korean": "축구 경기를 보는 것은 재미있다.",
+    "words": ["a soccer game", "is", "watch", "fun", "it", "to"],
+    "correct_answer": "It is fun to watch a soccer game.",
+    "explanation": "가주어 It을 사용한 구조: It is + 형용사 + to 부정사 + 목적어"
+  },
+  {
+    "id": 3,
+    "type": "rearrange",
+    "question": "우리말과 의미가 같도록 괄호 안에 주어진 단어들을 바르게 배열하시오.",
+    "korean": "은행이 언제 문을 여는지 아시나요?",
+    "words": ["you", "opens", "when", "do", "know", "the bank"],
+    "correct_answer": "Do you know when the bank opens?",
+    "explanation": "간접의문문에서는 주어+동사 순서로 씁니다. 'when the bank opens'가 정답입니다."
+  },
+  {
+    "id": 4,
+    "type": "rearrange",
+    "question": "우리말과 의미가 같도록 괄호 안에 주어진 단어들을 바르게 배열하시오.",
+    "korean": "나는 누군가가 내 이름을 부르고 있는 것을 들었다.",
+    "words": ["calling", "I", "my name", "someone", "heard"],
+    "correct_answer": "I heard someone calling my name.",
+    "explanation": "hear + 목적어 + 현재분사 구조입니다."
+  },
+  {
+    "id": 5,
+    "type": "sentence_combination",
+    "question": "다음 두 문장을 현재완료를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["Andy went to Canada.", "He is not here now."],
+    "correct_answer": "Andy has gone to Canada.",
+    "explanation": "과거에 갔고 지금 여기에 없다는 의미이므로 현재완료 'has gone'을 사용합니다."
+  },
+  {
+    "id": 6,
+    "type": "sentence_combination",
+    "question": "다음 두 문장을 현재완료를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["Ms. Parker started working at the company in 2012.", "She still works there."],
+    "correct_answer": "Ms. Parker has worked at the company since 2012.",
+    "explanation": "과거에 시작해서 지금까지 계속하는 의미이므로 현재완료와 'since'를 사용합니다."
+  },
+  {
+    "id": 7,
+    "type": "sentence_combination",
+    "question": "다음 두 문장을 현재완료를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["I forgot the girl's name.", "I still don't remember her name."],
+    "correct_answer": "I have forgotten the girl's name.",
+    "explanation": "과거에 잊었고 지금도 기억하지 못하는 상태이므로 현재완료를 사용합니다."
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "다음 중 밑줄 친 It의 쓰임이 [보기]와 같은 것은?",
+    "example": "It is exciting to ride a horse.",
+    "options": [
+      "It snows a lot in winter.",
+      "It is very bright in the room.",
+      "It is difficult to learn a foreign language.",
+      "It takes about ten minutes from my house.",
+      "It is about Toby and his friends' adventures."
+    ],
+    "correct_answer": 2,
+    "explanation": "보기의 It은 가주어(준비주어)로 to 부정사를 받습니다. ③번도 같은 용법입니다."
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "주어진 우리말과 의미가 같도록 할 때, 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+    "korean": "하루 종일 집에 있는 것은 지루하다.",
+    "sentence": "_______ is boring _______ at home all day.",
+    "options": [
+      "It - stays",
+      "It - to stay",
+      "That - stay",
+      "That - to stay",
+      "That - staying"
+    ],
+    "correct_answer": 1,
+    "explanation": "가주어 It과 to 부정사 구조입니다. 'It is boring to stay at home all day.'"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말로 알맞은 것은?",
+    "sentence": "I ______ Mike since I was a child.",
+    "options": ["have known", "was known", "have knew", "has known", "am known"],
+    "correct_answer": 0,
+    "explanation": "since와 함께 현재완료를 사용하며, 주어가 I이므로 'have known'이 정답입니다."
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "주어진 두 문장을 다음과 같이 한 문장으로 바꿔 쓸 때, 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+    "sentences": ["Mia started living in Rome in 2015.", "She still lives there."],
+    "sentence": "Mia ______ ______ in Rome ______ 2015.",
+    "options": [
+      "lived - in",
+      "lived - for",
+      "has lived - for",
+      "has lived - since",
+      "have lived - since"
+    ],
+    "correct_answer": 3,
+    "explanation": "과거부터 지금까지 계속하는 의미이므로 현재완료와 'since'를 사용합니다."
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "다음 중 어법상 틀린 것은?",
+    "options": [
+      "I've gone to Jeju-do last year.",
+      "Have you ever gone camping?",
+      "Jane has never been to London.",
+      "I've known him since I was a child.",
+      "I've just finished my homework."
+    ],
+    "correct_answer": 0,
+    "explanation": "현재완료는 과거 시점을 나타내는 'last year'와 함께 사용할 수 없습니다. 'I went to Jeju-do last year.'가 맞습니다."
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "다음 우리말과 의미가 같도록 할 때, 빈칸에 들어갈 말로 알맞은 것은?",
+    "korean": "온라인 상에 개인 정보를 남기는 것은 안전하지 않다.",
+    "sentence": "______ personal information online.",
+    "options": [
+      "It is not safe to leave",
+      "It is safe to leave",
+      "It is safe not to leave",
+      "It is not to leave safe",
+      "It is safe to not leave"
+    ],
+    "correct_answer": 0,
+    "explanation": "가주어 It 구조: 'It is not safe to leave personal information online.'"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "다음 문장에서 어법상 틀린 부분을 바르게 고친 것은?",
+    "sentence": "My brother and I have live in this house since we were children.",
+    "options": [
+      "have -> has",
+      "live -> lived",
+      "since -> for",
+      "we -> they",
+      "were -> are"
+    ],
+    "correct_answer": 1,
+    "explanation": "현재완료는 have/has + 과거분사 형태이므로 'have lived'가 맞습니다."
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말로 알맞은 것은?",
+    "sentence": "_______ is important to keep rules at school.",
+    "options": ["It", "This", "That", "What", "There"],
+    "correct_answer": 0,
+    "explanation": "가주어 It을 사용한 구조입니다. 'It is important to keep rules at school.'"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말로 알맞은 것은?",
+    "sentence": "We _______ each other for 10 years.",
+    "options": ["know", "knew", "has known", "have known", "were known"],
+    "correct_answer": 3,
+    "explanation": "for + 기간과 함께 현재완료를 사용하며, 주어가 We이므로 'have known'이 정답입니다."
+  },
+  {
+    "id": 17,
+    "type": "sentence_completion",
+    "question": "주어진 두 문장을 현재완료를 사용하여 한 문장으로 완성해 쓰시오.",
+    "sentences": ["My sister went to New York.", "She is not here now."],
+    "sentence": "My sister _______ _______ _______ to New York.",
+    "correct_answer": "My sister has gone to New York.",
+    "explanation": "과거에 갔고 지금 여기에 없다는 의미이므로 현재완료 'has gone'을 사용합니다."
+  },
+  {
+    "id": 18,
+    "type": "sentence_completion",
+    "question": "주어진 두 문장을 현재완료를 사용하여 한 문장으로 완성해 쓰시오.",
+    "sentences": ["He lost his glasses.", "He doesn't have them now."],
+    "sentence": "He _______ _______ his glasses.",
+    "correct_answer": "He has lost his glasses.",
+    "explanation": "과거에 잃어버렸고 지금도 가지고 있지 않은 상태이므로 현재완료를 사용합니다."
+  },
+  {
+    "id": 19,
+    "type": "sentence_completion",
+    "question": "주어진 두 문장을 현재완료를 사용하여 한 문장으로 완성해 쓰시오.",
+    "sentences": ["I started to study English three years ago.", "I still study English."],
+    "sentence": "I _______ _______ _______ _______ for three years.",
+    "correct_answer": "I have studied English for three years.",
+    "explanation": "과거부터 지금까지 계속하는 의미이므로 현재완료와 'for + 기간'을 사용합니다."
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "다음 문장을 가주어를 사용하여 바르게 바꿔 쓴 것은?",
+    "sentence": "To eat a lot of vegetables is good for your health.",
+    "options": [
+      "It is for your health good to eat a lot of vegetables.",
+      "It is good for your health to eat a lot of vegetables.",
+      "It is to eat a lot of vegetables for your health good.",
+      "It is for your health to eat a lot of vegetables good.",
+      "It is to eat a lot of vegetables good for your health."
+    ],
+    "correct_answer": 1,
+    "explanation": "가주어 It 구조: It is + 형용사 + 전치사구 + to 부정사"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "다음 문장의 의미가 같도록 빈칸에 알맞은 말을 써서 문장을 완성하시오.",
+    "sentence": "To learn Spanish is not easy.",
+    "target": "_______ _______ _______ _______ is not easy.",
+    "correct_answer": "It is not easy to learn Spanish.",
+    "explanation": "가주어 It을 사용하여 문장을 변형합니다."
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "다음 문장의 빈칸에 들어갈 말로 알맞은 것은?",
+    "sentence": "_______ is easy to solve this problem.",
+    "options": ["It", "That", "What", "There", "This"],
+    "correct_answer": 0,
+    "explanation": "가주어 It을 사용한 구조입니다."
+  },
+  {
+    "id": 23,
+    "type": "rearrange",
+    "question": "다음 우리말과 의미가 같도록 주어진 단어를 바르게 배열하시오.",
+    "korean": "규칙적으로 운동하는 것은 중요하다.",
+    "words": ["important", "it", "to exercise regularly", "is"],
+    "correct_answer": "It is important to exercise regularly.",
+    "explanation": "가주어 It 구조: It is + 형용사 + to 부정사"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "다음 중 어법상 틀린 문장은?",
+    "options": [
+      "Please tell me where Steve lives.",
+      "He asked me who the window broke.",
+      "I want to know how much this jacket is.",
+      "Can you tell me where the post office is?",
+      "Let me know when the concert will start."
+    ],
+    "correct_answer": 1,
+    "explanation": "간접의문문에서는 주어+동사 순서입니다. 'who broke the window' 또는 'who the window was broken by'가 맞습니다."
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "두 문장의 의미가 같도록 할 때 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+    "sentences": [
+      "We missed the train because of ______.",
+      "We missed the train ______ the traffic was heavy."
+    ],
+    "options": [
+      "no traffic - because",
+      "little traffic - because",
+      "the traffic jam - because of",
+      "the heavy traffic - because",
+      "there is much traffic - because of"
+    ],
+    "correct_answer": 3,
+    "explanation": "because of + 명사구 = because + 주어+동사 구조입니다."
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "다음 우리말과 의미가 같도록 할 때 빈칸에 들어갈 말로 알맞은 것은?",
+    "korean": "장래에 무엇이 되고 싶은지 내게 말해 줘.",
+    "sentence": "Tell me ______ you want to be in the future.",
+    "options": ["what", "who", "how", "when", "why"],
+    "correct_answer": 0,
+    "explanation": "'무엇이 되고 싶은지'는 'what'으로 묻습니다."
+  },
+  {
+    "id": 27,
+    "type": "sentence_combination",
+    "question": "다음을 because 또는 because of를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["Our school was closed.", "the heavy snow"],
+    "correct_answer": "Our school was closed because of the heavy snow.",
+    "explanation": "because of + 명사구 구조입니다."
+  },
+  {
+    "id": 28,
+    "type": "sentence_combination",
+    "question": "다음을 because 또는 because of를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["I won the singing contest.", "I practiced very hard."],
+    "correct_answer": "I won the singing contest because I practiced very hard.",
+    "explanation": "because + 주어+동사 구조입니다."
+  },
+  {
+    "id": 29,
+    "type": "sentence_combination",
+    "question": "다음을 because 또는 because of를 사용하여 한 문장으로 쓰시오.",
+    "sentences": ["Eric had to move to New York.", "his father's new job"],
+    "correct_answer": "Eric had to move to New York because of his father's new job.",
+    "explanation": "because of + 명사구 구조입니다."
+  },
+  {
+    "id": 30,
+    "type": "rearrange",
+    "question": "괄호 안에 주어진 단어들을 바르게 배열하여 문장을 다시 쓰시오.",
+    "words": ["the ring", "is", "where"],
+    "sentence": "Can you tell me (the ring, is, where)?",
+    "correct_answer": "Can you tell me where the ring is?",
+    "explanation": "간접의문문에서는 의문사 + 주어 + 동사 순서입니다."
+  },
+  {
+    "id": 31,
+    "type": "rearrange",
+    "question": "괄호 안에 주어진 단어들을 바르게 배열하여 문장을 다시 쓰시오.",
+    "words": ["the class", "start", "will", "when"],
+    "sentence": "Do you know (the class, start, will, when)?",
+    "correct_answer": "Do you know when the class will start?",
+    "explanation": "간접의문문: 의문사 + 주어 + 조동사 + 동사"
+  },
+  {
+    "id": 32,
+    "type": "rearrange",
+    "question": "괄호 안에 주어진 단어들을 바르게 배열하여 문장을 다시 쓰시오.",
+    "words": ["found", "you", "how", "my smartphone"],
+    "sentence": "I wonder (found, you, how, my smartphone).",
+    "correct_answer": "I wonder how you found my smartphone.",
+    "explanation": "간접의문문: 의문사 + 주어 + 동사 + 목적어"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "다음 괄호 안에서 알맞은 것을 고르시오.",
+    "sentence": "I don't know (who / why) stole my key.",
+    "options": ["who", "why"],
+    "correct_answer": 0,
+    "explanation": "'누가' 훔쳤는지 묻는 것이므로 'who'가 정답입니다."
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "다음 괄호 안에서 알맞은 것을 고르시오.",
+    "sentence": "Do you know (why / where) he is angry?",
+    "options": ["why", "where"],
+    "correct_answer": 0,
+    "explanation": "'왜' 화가 났는지 묻는 것이므로 'why'가 정답입니다."
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "다음 괄호 안에서 알맞은 것을 고르시오.",
+    "sentence": "Tell me (what / when) your family will arrive.",
+    "options": ["what", "when"],
+    "correct_answer": 1,
+    "explanation": "'언제' 도착할지 묻는 것이므로 'when'이 정답입니다."
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "다음 괄호 안에서 알맞은 것을 고르시오.",
+    "sentence": "Can you tell me (what time is it / what time it is)?",
+    "options": ["what time is it", "what time it is"],
+    "correct_answer": 1,
+    "explanation": "간접의문문에서는 주어+동사 순서로 씁니다."
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "다음 괄호 안에서 알맞은 것을 고르시오.",
+    "sentence": "I want to ask her (what she bought / what did she buy).",
+    "options": ["what she bought", "what did she buy"],
+    "correct_answer": 0,
+    "explanation": "간접의문문에서는 주어+동사 순서로 씁니다."
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "다음 대화의 빈칸에 들어갈 말로 알맞은 것은?",
+    "conversation": "A: Where did you put your glasses?\nB: I forgot ___________",
+    "options": [
+      "where I put my glasses",
+      "where you put my glasses",
+      "where did I put my glasses",
+      "did where I put your glasses",
+      "you did put where my glasses"
+    ],
+    "correct_answer": 0,
+    "explanation": "간접의문문에서는 주어+동사 순서이며, '내가 어디에 두었는지'이므로 'where I put my glasses'가 맞습니다."
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "다음 두 문장을 한 문장으로 바꿔 쓸 때 빈칸에 들어갈 말로 알맞은 것은?",
+    "sentences": ["How did you come to the party?", "Please tell me."],
+    "sentence": "Please tell me ___________",
+    "options": [
+      "how you came to the party",
+      "how came you to the party",
+      "how did you come to the party",
+      "did you how come to the party",
+      "you did how come to the party"
+    ],
+    "correct_answer": 0,
+    "explanation": "간접의문문에서는 주어+동사 순서로 씁니다."
+  },
+  {
+    "id": 40,
+    "type": "sentence_correction",
+    "question": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.",
+    "sentence": "I couldn't watch TV because of I didn't finish my homework.",
+    "correct_answer": "I couldn't watch TV because I didn't finish my homework.",
+    "explanation": "because of는 명사구를 받고, because는 주어+동사 절을 받습니다. 'I didn't finish'는 절이므로 'because'를 사용합니다."
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+    "sentences": [
+      "Tell me ___________ the accident happened.",
+      "She asked me ___________ I bought the present."
+    ],
+    "options": [
+      "who - when",
+      "who - that",
+      "how - where",
+      "how - which",
+      "which - where"
+    ],
+    "correct_answer": 2,
+    "explanation": "첫 번째는 '어떻게' 사고가 일어났는지(how), 두 번째는 '어디서' 샀는지(where)입니다."
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 because of를 쓸 수 없는 문장은?",
+    "options": [
+      "I bought the bag ___________ it was cheap.",
+      "I felt excited ___________ my new computer.",
+      "Ann didn't go outside ___________ a bad cold.",
+      "The road was closed ___________ the heavy snow.",
+      "Tom couldn't take a nap ___________ the noise outside."
+    ],
+    "correct_answer": 0,
+    "explanation": "because of는 명사구를 받습니다. ①번은 'it was cheap'이라는 절이므로 'because'를 사용해야 합니다."
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말로 알맞지 않은 것은?",
+    "sentence": "Can you tell me ___________?",
+    "options": [
+      "how many pets you have",
+      "which teacher you like most",
+      "who did you invite to dinner",
+      "why you were late this morning",
+      "when you are going to come back"
+    ],
+    "correct_answer": 2,
+    "explanation": "간접의문문에서는 주어+동사 순서입니다. 'who you invited'가 맞습니다."
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "다음 중 어법상 어색한 것을 고르시오.",
+    "options": [
+      "I asked him who the girl is.",
+      "Tell me when you will come home.",
+      "I'd like to know who won the contest.",
+      "Please tell me why you became a director.",
+      "I don't know what did he buy in the store."
+    ],
+    "correct_answer": 4,
+    "explanation": "간접의문문에서는 주어+동사 순서입니다. 'what he bought'가 맞습니다."
+  },
+  {
+    "id": 45,
+    "type": "rearrange",
+    "question": "괄호 안에 주어진 단어를 바르게 배열하여 문장을 완성하시오.",
+    "sentence": "Please tell me ___________",
+    "words": ["you", "so far", "how many movies", "have", "made"],
+    "correct_answer": "Please tell me how many movies you have made so far.",
+    "explanation": "간접의문문: 의문사구 + 주어 + 현재완료 + 목적어 + 부사구"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "다음 중 어법상 틀린 문장을 고르시오.",
+    "options": [
+      "Tell me how that happened.",
+      "I'd like to know how you are tall.",
+      "Do you know when my birthday is?",
+      "I don't know when we should meet.",
+      "She asked me where I bought the flowers."
+    ],
+    "correct_answer": 1,
+    "explanation": "'how you are tall'은 어색합니다. 'how tall you are'가 맞습니다."
+  },
+  {
+    "id": 47,
+    "type": "fill_blank",
+    "question": "because나 because of를 넣어 문장을 완성하시오.",
+    "sentence": "We didn't win the game ___________ I made a mistake.",
+    "correct_answer": "because",
+    "explanation": "because + 주어+동사 절 구조입니다."
+  },
+  {
+    "id": 48,
+    "type": "fill_blank",
+    "question": "because나 because of를 넣어 문장을 완성하시오.",
+    "sentence": "Sumi didn't go on a picnic ___________ the heavy rain.",
+    "correct_answer": "because of",
+    "explanation": "because of + 명사구 구조입니다."
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 들어갈 말로 알맞지 않은 것은?",
+    "sentence": "I have been to Paris _________.",
+    "options": ["once", "twice", "before", "a week ago", "many times"],
+    "correct_answer": 3,
+    "explanation": "현재완료는 과거 시점을 나타내는 'a week ago'와 함께 사용할 수 없습니다."
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "다음 문장의 밑줄 친 부분과 쓰임이 같은 것은?",
+    "sentence": "I have known him for 20 years.",
+    "options": [
+      "She has gone to Paris.",
+      "He has already written a letter.",
+      "I have been to Jeju-do several times.",
+      "How long have you lived in Korea?",
+      "They have just arrived at the airport."
+    ],
+    "correct_answer": 3,
+    "explanation": "for + 기간과 함께 사용된 현재완료 용법입니다."
+  }
+]
+
