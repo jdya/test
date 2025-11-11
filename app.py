@@ -201,7 +201,7 @@ def load_questions():
     
     # Supabase 실패 시 JSON 파일 사용
     try:
-    with open('questions.json', 'r', encoding='utf-8') as f:
+        with open('questions.json', 'r', encoding='utf-8') as f:
             questions = json.load(f)
             # JSON 데이터를 Supabase 형식에 맞게 변환
             formatted_questions = []
