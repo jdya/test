@@ -791,7 +791,7 @@ def main():
 
 # 퀴즈 페이지
 def show_quiz(student_id):
-questions = load_questions()
+    questions = load_questions()
 
     if not questions:
         st.error("문제를 불러올 수 없습니다.")
